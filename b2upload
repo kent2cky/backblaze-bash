@@ -15,7 +15,7 @@ if [ -s ~/.B2 ]
     then
         source ~/.B2
     else
-        echo "The configuration file .B2 does not exist!"
+        echo "Die Konfigurationsdatei .B2 ist nicht vorhanden"
         safeExit        
 fi
 
@@ -101,7 +101,7 @@ done
 
 if [ "$1" == '' ]
     then
-        echo "Please specify a local file!"
+        echo "Bitte eine Lokale-Datei angeben!"
         safeExit
 fi
 
